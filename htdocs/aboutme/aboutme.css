@@ -1,0 +1,99 @@
+q {
+    font-style: italic;
+}
+
+li {
+    font-family: "Lucida Console";
+}
+
+::selection {
+    color: #4b0782;
+    background-color: #a1f4e8;
+}
+
+#quote_credit{
+    color: #6827d1;
+}
+
+a:link {
+    color: #990109;
+}
+
+a:visited {
+    color: #09998a;
+}
+
+a:hover {
+    color: #2a0cb2;
+}
+
+a:active {
+    color: #d82606;
+}
+
+img {
+    width: 400px;
+    border: solid;
+}
+
+table {
+    text-align: center;
+    margin-top: 10px;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.friends_table,
+.friends_table th,
+.friends_table td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.friends_table tr:nth-child(even) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.schedule_table caption {
+    color: #000000;
+}
+
+.schedule_table {
+    background-color: #102547;
+    color: #ffffff;
+    border: 4px solid;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+
+.schedule_table td,
+.schedule_table th {
+    padding: 5px;
+}
+
+.schedule_table tr:not(:last-of-type){
+    border-bottom: 1px dashed;
+}
+
+.books_table,
+.books_table th,
+.books_table td {
+    border: inset;
+    border-color: #16929e;
+}
+
+.books_table thead {
+    background-color: #a990f9;
+    color: #000000;
+}
+
+.books_table tfoot {
+    background-color: #33020f;
+    color: #f7e6ea;
+}

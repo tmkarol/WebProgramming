@@ -1,0 +1,140 @@
+body {
+    background-image: url("images/white.jpg");
+    font-size: 1.1em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, blue, purple);
+    padding: 1.5em;
+    height: 3em;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+nav {
+    display: flex;
+    padding: 1em;
+    background-color: #3c0e56;
+    align-content: center;
+}
+
+nav a {
+    font-family: sans-serif;
+    margin: 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: #9542f4;
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+nav a:link {
+    color: #9542f4;
+}
+
+nav a:visited {
+    color: #9542f4;
+}
+
+nav a:hover {
+    background-color: #9542f4;
+    transition: background-color, color 1000ms linear;
+    color: #ffffff;
+}
+
+nav a:active {
+    color: #9542f4;
+}
+
+.dropdown{
+    position: relative;
+    top: 2.1em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    margin: .2em;
+}
+
+.dropdown:hover .dropdown-content {
+    margin-top: 1.3em;
+    border-radius: 1em;
+    display: block;
+}
+
+@media (max-width: 480px){
+    nav {
+        flex-direction: column;
+        height: 10em;
+    }
+
+    img {
+        width: 380px;
+    }
+
+    nav a {
+        margin: .2em;
+        padding: .5em;
+    }
+
+    header {
+        font-size: 1em;
+        padding-bottom: 2em;
+    }
+
+    .dropdown-content {
+        width: 100%;
+    }
+
+    .dropdown {
+        top: 1em;
+        width: 100%;
+    }
+
+    .dropdown-content a {
+        width: 92%;
+    }
+}
+
+section {
+    margin: 1em;
+}
+
+.section_header{
+    color: #9542f4;
+    margin-bottom: 1em; 
+}
+
+section li {
+    margin-left: 2em;
+}
+
+.selected-menu {
+    background-color: #0a0e60;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

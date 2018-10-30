@@ -1,0 +1,25 @@
+#turtle_left {
+    float: left;
+    border-style: inset;
+    margin-right: 10px;
+    border-color: #3fea47;
+}
+
+#cat_right {
+    float: right;
+    border-style: outset;
+}
+
+.div3 {
+    background-color: #7ddee0;
+    height: 100px;
+}
+
+.div4 {
+    background-color: #c899e5;
+    height: 111px;
+}
+
+.clear-it {
+    clear: none;
+}
